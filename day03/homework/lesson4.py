@@ -18,6 +18,8 @@ gvari = input("miutite sheni gvari: ")
 full_name = saxeli + " " + gvari
 print("mogesalmebit" + " " + full_name)
 
+
+
 #N3
 num1 = input("შეიყვანეთ პირველი რიცხვი: ")
 num2 = input("შეიყვანეთ მეორე რიცხვი: ")

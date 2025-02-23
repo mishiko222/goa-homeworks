@@ -1,3 +1,4 @@
+#N1
 # სტრინგი შექმნა
  
 string = "123"
@@ -13,12 +14,12 @@ print("ინტეჯერი:", integer)
 
 
 
-
+#N2
 heloo = "გამარჯობა"
 print(heloo)
 
 element = ("ელემენტი") * 10
-print(element.strip())
+print(element)
 
 number = 500 * 2
 print(number)
