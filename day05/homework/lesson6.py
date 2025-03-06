@@ -20,4 +20,5 @@ for i in range(10,100):
 
 #N5
 გამოსახულება = True or True and False or True and False and False and True or False
-print(გამოსახულება)
+print(გამოსახულება) 
+#გამოიტანს true
