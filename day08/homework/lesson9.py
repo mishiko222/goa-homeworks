@@ -8,4 +8,6 @@ else:
     # ვპოულობტ ჯერადებს 1 დან 100 მდე
     for i in range(1, 101):
         if i % number == 0:
-            print(i)
+             print  (i)
+
+#N2 

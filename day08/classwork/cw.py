@@ -1,5 +1,5 @@
 #N1
-#
+
 
 
 
@@ -12,21 +12,9 @@ sum_result = sum(range(101))  # range(101) მოიცავს რიცხვ
 print("0 დან 100-მდე რიცხვების ჯამი:", sum_result)
 
 
-#N3
-while True:
-    user = input("შეიტანეთ სამ ასოიანი სიტყვა: ")
-
-    if len(user) != 3:
-        print("გთხოვთ, შეიტანოთ ზუსტად სამი ასო!")
-        continue
+#N3 ვერგავიგე
 
     
-    if user == user:
-        print("False")
-    else:
-        print("true")
-    break
-
 #N4
 for number in range(100, 301):
     print(number**2)
@@ -34,3 +22,14 @@ for number in range(100, 301):
 #N5
 for i in range(1000):
     print(i % 2 == 0)
+
+
+#N6
+
+N = int(input("შეიტანეთ რიცხვი: "))
+
+# ნეგატიური რიცხვისთვის ფესვი არ არსებობს
+if N < 0:
+    print(False)
+else:
+    print(N ** 0.5)
