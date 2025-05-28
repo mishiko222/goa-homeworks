@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>სტილების პრიორიტეტი</title>
+
+    <!-- INTERNAL სტილი -->
+    <style>
+        .my-paragraph {
+            color: green; /* INTERNAL სტილი */
+        }
+    </style>
+
+    <!-- EXTERNAL სტილი -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- INLINE სტილი (აქ ყველაზე მაღალ პრიორიტეტზეა) -->
+    <p class="my-paragraph" style="color: red;">
+        ეს პარაგრაფი გასტილებულია სამივე გზით.
+    </p>
+
+</body>
+</html>
