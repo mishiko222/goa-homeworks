@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 28 Forms</title>
+</head>
+<body>
+
+  <h1>1. შექმენით მარტივი Form სადაც გექნებათ Email, Password, Name-ის შესაყვანი ველები და დაა-required-ეთ ისინი, რომლებიც თქვენ მიგაჩნიათ საჭიროდ.</h1>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <hr>
+
+  <h1> 2. შექმენით Form, მოათავსეთ თქვენთვის სასურველი Input-ები და დაამატეთ label-ები.</h1>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <hr>
+
+  <h1>3. მოიყვანეთ თითო მაგალითი თითოეულ input-ის type-ზე (სურათი ქვევით იქნება)</h1>
+  <form>
+    <label>Text:</label>
+    <input type="text" placeholder="Enter text"><br><br>
+
+    <label>Password:</label>
+    <input type="password" placeholder="Enter password"><br><br>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter email"><br><br>
+
+    <label>Number:</label>
+    <input type="number" placeholder="Enter number"><br><br>
+
+    <label>Date:</label>
+    <input type="date"><br><br>
+
+    <label>Checkbox:</label>
+    <input type="checkbox"> Accept Terms<br><br>
+
+    <label>Radio:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br><br>
+
+    <label>Color:</label>
+    <input type="color"><br><br>
+
+    <label>Range:</label>
+    <input type="range" min="0" max="100"><br><br>
+
+    <label>File:</label>
+    <input type="file"><br><br>
+
+    <label>Submit:</label>
+    <input type="submit" value="Send"><br><br>
+  </form>
+
+
+</body>
+</html>

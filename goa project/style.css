@@ -1,0 +1,76 @@
+/* მთლიანი გვერდის ფონი და ტექსტის ფერი */
+body {
+  background-color: #2c003e; /* იისფერი ფონი */
+  color: gold; /* ოქროსფერი ტექსტი */
+  font-family: Arial, sans-serif; /* მარტივი შრიფტი */
+  margin: 20px; /* გარეთ შიდა სივრცე */
+}
+
+#tag{
+  text-align: center;
+  font-size: 30px;
+}
+
+/* სურათების ორი რიგი */
+.row {
+  list-style: none; /* UL-ის ქონდეს წერტილები - გამორთული */
+  padding: 0;       /* შიდა სივრცე ნულის ტოლი */
+  margin-bottom: 40px; /* ქვემოთ სივრცე რიგებს შორის */
+  white-space: nowrap; /* აიგივებს ელემენტებს ერთ ხაზზე */
+}
+
+/* თითოეული ფოტო ელემენტი */
+.photo-img {
+  display: inline-block; /* გვერდიგვერდ ჩალაგება */
+  margin-right: 200px;    /* დაშორება ფოტოების შორის */
+  vertical-align: top;   /* ზედა გასწორება */
+  width: 150px;          /* ფიქსირებული სიგანე */
+  text-align: center;    /* ტექსტის ცენტრში განლაგება */
+}
+
+/* ბოლო ელემენტს მარჯვენა მარჟინი არ აქვს */
+.photo-img:last-child {
+  margin-right: 0;
+}
+
+/* სათაურის ფერები */
+h1 {
+  color: darkgoldenrod;
+  font-size: 18px;
+  margin: 5px 0 2px 0;
+}
+
+h2 {
+  color: rgb(251, 255, 0);
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+/* სურათების ზომა */
+.photo-img img {
+  width: 150px;
+  height: auto; /* პროპორციულად იზრდება */
+  border-radius: 8px; /* მცირედი მოღუნვა */
+  box-shadow: 0 0 5px rgba(255, 215, 0, 0.7); /* ჩრდილი */
+  transition: transform 0.3s ease; /* ეფექტი მექანიკურ */
+}
+
+.photo-img img:hover {
+  transform: scale(1.05); /* ლეგო გაზრდა მაუსის.hover-ზე */
+}
+
+
+.photo-img img{
+  width: 300px;
+  height: auto;
+}
+
+
+#khvicha{
+  height: 200px;
+  width: 250px;
+}
+
+#toch{
+  height: 200px;
+}

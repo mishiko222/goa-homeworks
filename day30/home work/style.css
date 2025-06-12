@@ -1,0 +1,23 @@
+/* 1 დავალება */
+nav {
+  background-color: #3498db; /* ცისფერი ფონური ფერი */
+  border-radius: 15px;       /* კუთხეების მომრგვალება */
+  padding: 10px 20px;
+  width: fit-content;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
