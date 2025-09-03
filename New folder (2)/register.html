@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8" />
+    <title>რეგისტრაცია</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="container">
+    <h1>რეგისტრაცია</h1>
+    <form id="registerForm" onsubmit="return registerUser()">
+        <label>სახელი:</label><br />
+        <input type="text" id="username" required /><br /><br />
+
+        <label>ელფოსტა:</label><br />
+        <input type="email" id="email" required /><br /><br />
+
+        <label>პაროლი:</label><br />
+        <input type="password" id="password" required /><br /><br />
+
+        <button type="submit">დარეგისტრირდი</button>
+    </form>
+</div>
+
+    <script>
+        function registerUser() {
+            const name = document.getElementById("username").value.trim();
+            if (name === "") {
+                alert("გთხოვთ, შეიყვანოთ სახელი!");
+                return false;
+            }
+            sessionStorage.setItem("name", name);
+            window.location.href = "index.html";
+            return false; // ფორმის ნორმალური გამოგზავნის დაბლოკვა
+        }
+    </script>
+</body>
+</html>
